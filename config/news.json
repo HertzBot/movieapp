@@ -1,0 +1,42 @@
+{
+    "news":
+    [
+        {
+            "titel": "John Wick: Chapter 2",
+            "id": 213,
+            "date": "May 19, 2017",
+            "author": "<a href='/about'>Dennis Vermeiren</a>",
+            "categ": ["New","Action"],
+            "recap": " John Wick: Chapter 2 does what a sequel should -- which in this case means doubling down on the non-stop, thrillingly choreographed action that made its predecessor so much fun.",
+            "body": "<p>In this next chapter following the 2014 hit, legendary hitman John Wick (Keanu Reeves) is forced back out of retirement by a former associate plotting to seize control of a shadowy international assassins' guild. Bound by a blood oath to help him, John travels to Rome where he squares off against some of the world's deadliest killers.</p>",
+            "img1": "wick.jpg"
+        },{
+            "titel": " Guardians of the Galaxy Vol. 2",
+            "id": 212,
+            "date": "May 18, 2017",
+            "author": "<a href='/about'>Dennis Vermeiren</a>",
+            "categ": ["New","Sci-Fi"],
+            "recap": "Guardians of the Galaxy Vol. 2's action-packed plot, dazzling visuals, and irreverent humor add up to a sequel that's almost as fun -- if not quite as thrillingly fresh -- as its predecessor.",
+            "body": "<p>Set to the all-new sonic backdrop of Awesome Mixtape #2, Marvel Studios' 'Guardians of the Galaxy Vol. 2' continues the team's adventures as they traverse the outer reaches of the cosmos. The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage. Old foes become new allies and fan-favorite characters from the classic comics will come to our heroes' aid as the Marvel Cinematic Universe continues to expand.</p>",
+            "img1": "galaxy.jpg"
+        },{
+            "titel": " It Comes at Night",
+            "id": 211,
+            "date": "May 17, 2017",
+            "author": "<a href='/about'>Dennis Vermeiren</a>",
+            "categ": ["Horror"],
+            "recap": "It Comes at Night makes lethally effective use of its bare-bones trappings while proving once again that what's left unseen can be just as horrifying as anything on the screen.",
+            "body": "<p>Imagine the end of the world. Now imagine something worse. Award-winning filmmaker Trey Edward Shults follows his incredible debut feature KRISHA with IT COMES AT NIGHT, a horror film following a man (Joel Edgerton) as he learns that the evil stalking his family home may be only a prelude to horrors that come from within. Secure within a desolate home as an unnatural threat terrorizes the world, the tenuous domestic order he has established with his wife and son is put to the ultimate test with the arrival of a desperate young family seeking refuge. Despite the best intentions of both families, paranoia and mistrust boil over as the horrors outside creep ever-closer, awakening something hidden and monstrous within him as he learns that the protection of his family comes at the cost of his soul.</p>",
+            "img1": "night.png"
+        },{
+            "titel": " Alien: Covenant",
+            "id": 210,
+            "date": "May 16, 2017",
+            "author": "<a href='/about'>Dennis Vermeiren</a>",
+            "categ": ["Thriller","Sci-Fi"],
+            "recap": "Alien: Covenant delivers another satisfying round of close-quarters deep-space terror, even if it doesn't take the saga in any new directions.",
+            "body": "<p>Ridley Scott returns to the universe he created, with ALIEN: COVENANT, a new chapter in his groundbreaking ALIEN franchise. The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise, but is actually a dark, dangerous world. When they uncover a threat beyond their imagination, they must attempt a harrowing escape.</p>",
+            "img1": "alien.jpg"
+        }
+    ]
+}

@@ -1,77 +1,135 @@
+/* CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
-  font-family: verdana;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2em;
+  color: #ddd;
   width: 500px;
   margin: auto;
-  line-height: 1.4em;
-  background-color: darkgray;    
+  padding: 25px 0 25px 0;
+  background-color: #222;
 }
 
 section {
-  margin: -25px 0;
-  background-color: lightgrey;
-  padding:0% 1%;    
+  margin: 25px 0;
+  background-color: #555;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 img {
   max-width: 100%;
-  border-radius: 5%;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 p {
   margin: 10px 0;
 }
-.datum {
-    color: dimgrey;
-}
-.return {
-    text-decoration: none; 
-    color:black;
-    height: 50px;
-}
-.categorie {
-    text-decoration: none;
-    color:black;
-}
-#cat {
-  color: orangered;
+
+p a {
+  color: orange;
 }
 
-h1 {
-    text-decoration: underline overline;
-    color: darkgrey;
-    font-size: 2em;
-    text-align: center;
-    background-image: url(../img/header.jpg);
-    height: 150px;
-    padding-top: 50px;
-    background-size: cover;
-        
-}
-h2 {
-  font-size: 1.5em;
-  margin: 25px 0;
-    text-decoration: underline;
-}
-
-h3 {
-  display: inline;
+span {
+  text-decoration: underline;
 }
 
 nav {
   display: inline-flex;
-  width: 100%;  
+  box-sizing: border-box;
+  width: 100%;
   margin: 0;
-  padding:1% 0%;
-  background-color: slategrey;
+  padding: 0 15px;
+  border-radius: 15px;
+  background-color: #555;
 }
 
 nav a {
   display: inline-block;
   margin-right: 5px;
 }
+
+h1 {
+  font-weight: 700;
+  color: white;
+  text-shadow: 3px 0 5px blue, -3px 0 5px red, 0 3px 5px blue, 0 -3px 5px red;
+  font-size: 2.5em;
+  text-align: center;
+  background-image: url(../img/header.jpg);
+  height: 200px;
+  line-height: 200px;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+h2 a {
+  color: orange;
+}
+
+h3 {
+  text-indent: 15px;
+  font-size: 1.2em;
+  padding: 25px 15px 25px 0;
+}
+
+h3 a {
+  color: orange;
+}
+
+h4 {
+  margin-left: 5px;
+  display: inline-block;
+  color: black;
+}
+
 footer {
-    background-color: black;
-    color: grey;
-    height: 50px;
-    padding: 15px 0px 0px 15px;
+  background-color: black;
+  color: #aaa;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.navcat {
+  font-size: 1.2em;
+  padding: 25px 0 25px 10px;
+  color: orange;
+}
+
+.datum {
+  font-size: 0.8em;
+  color: #000;
+}
+
+.return {
+  text-decoration: none;
+}
+
+.return a {
+  color: white;
+  text-shadow: 2px 0 3px blue, -2px 0 3px red, 0 2px 3px blue, 0 -2px 3px red;
+}
+
+.category {
+  font-size: 1.2em;
+  margin-top: 25px;
+  text-indent: 15px;
+}
+
+.postsec {
+  display: inline-flex;
 }

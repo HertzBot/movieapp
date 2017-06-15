@@ -1,23 +1,23 @@
 <% include header %>
 
-<h1 class="return"><a href="/">Return</a></h1>
+<h1 class="return"><a href="/">&#060; Return</a></h1>
 
-<h2 class="categorie">nieuws per categorie:<a href="/" id="cat"><%- categorieen[id] %></a></h2>
+<h2 class="category">Posts in category: <span><%- categ[id] %></span></h2>
 
-  <% for (var i = 0; i < items.length; i++) { %>
-    <% if (items[i].categorieen.indexOf(categorieen[id]) !== -1) { %>
-      <section>
-          <h2>
-            <a href=/items/<%- items[i].id %>><%- items[i].titel %></a>
-          </h2>
-          <img src="/img/<%- items[i].afbeeldings %>" alt="<%- items[i].titel %>">
-          <p class="datum"><%- items[i].datum %></p>
+<% for (var i = 0; i < items.length; i++) { %>
+  <% if (items[i].categ.indexOf(categ[id]) !== -1) { %>
+    <section>
+        <h2>
+          <a href=/items/<%- items[i].id %>><%- items[i].titel %></a>
+        </h2>
+        <img src="/img/<%- items[i].img1 %>" alt="<%- items[i].titel %>">
+        <p class="date"><%- items[i].date %></p>
 
-          <p>
-            <%- items[i].samenvatting %>
-          </p>
-      </section>
-    <% } %>
+        <p>
+          <%- items[i].recap %>
+        </p>
+    </section>
   <% } %>
+<% } %>
 
 <% include footer %>

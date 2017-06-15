@@ -1,0 +1,22 @@
+<% include header %>
+
+<h1 class="return"><a href="/">&#060; Return</a></h1>
+
+<section>
+  <h2><%- item.titel %></h2>
+  <img src="/img/<%- item.img1 %>" alt="<%- item.titel %>">
+
+  <p class="datum"><%- item.date %> &nbsp;-&nbsp; <%- item.author %></p>
+
+  <p>
+    <%- item.body %>
+  </p>
+
+  <p class="postsec">Posted in:	&nbsp;
+    <% for (var i = 0; i < item.categ.length; i++) { %>
+      <h4><%- item.categ[i] %></h4><% if (i+1< item.categ.length){ %>, <% } %>
+    <% } %>
+  </p>
+</section>
+
+<% include footer %>

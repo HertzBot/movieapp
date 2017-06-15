@@ -1,7 +1,7 @@
 {
-  "name": "mobiel-nieuws-demo",
+  "name": "Movie-Mobile",
   "version": "1.0.0",
-  "description": "Mobiele nieuwssite",
+  "description": "Movie Mobile",
   "main": "app.js",
   "directories": {
     "test": "test"
@@ -10,13 +10,13 @@
     "start": "node app.js"
   },
   "keywords": [
-    "web",
+    "movies",
     "nieuws",
-    "technology",
+    "app",
     "node",
     "express"
   ],
-  "author": "Kristof Michiels",
+  "author": "Dennis Vermeiren",
   "license": "ISC",
   "homepage": "",
   "dependencies": {
